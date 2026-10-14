@@ -244,8 +244,7 @@
             <button class="filter-btn active" onclick="filterCards('all')">Todos</button>
             <button class="filter-btn" onclick="filterCards('manana')">Mañanas</button>
             <button class="filter-btn" onclick="filterCards('tarde')">Tardes</button>
-            <button class="filter-btn" onclick="filterCards('partido')">Partidos (P/S)</button>
-            <button class="filter-btn" onclick="filterCards('reserva')">Reservas (M/T)</button>
+            <button class="filter-btn" onclick="filterCards('correturnos')">Correturnos</button>
         </div>
         <div class="actions">
             <span id="toast" class="status-toast">✓ Orden guardado</span>
@@ -276,7 +275,7 @@
             </div>
         </div>
 
-        <div class="shift-card" id="card-002" data-category="partido">
+        <div class="shift-card" id="card-002" data-category="manana">
             <div class="card-header">
                 <span class="turno-badge">Turno 002 / P 002 / S 002</span>
                 <span class="coche-info">Coche 002 / 001 / 003</span>
@@ -430,7 +429,7 @@
             </div>
         </div>
 
-        <div class="shift-card" id="card-009" data-category="partido">
+        <div class="shift-card" id="card-009" data-category="tarde">
             <div class="card-header">
                 <span class="turno-badge">Turno 009 / P 009 / S 009</span>
                 <span class="coche-info">Coche 005 / 004 / 001</span>
@@ -458,7 +457,7 @@
             </div>
         </div>
 
-        <div class="shift-card" id="card-010" data-category="partido">
+        <div class="shift-card" id="card-010" data-category="tarde">
             <div class="card-header">
                 <span class="turno-badge">Turno 010 / P 010 / S 010</span>
                 <span class="coche-info">Coche 003 / 007 / 002 / 005</span>
@@ -486,7 +485,7 @@
             </div>
         </div>
 
-        <div class="shift-card" id="card-011" data-category="manana">
+        <div class="shift-card" id="card-011" data-category="tarde">
             <div class="card-header">
                 <span class="turno-badge">Turno 011 X</span>
                 <span class="coche-info">Coche 006 / 003</span>
@@ -514,7 +513,7 @@
             </div>
         </div>
 
-        <div class="shift-card" id="card-012" data-category="manana">
+        <div class="shift-card" id="card-012" data-category="tarde">
             <div class="card-header">
                 <span class="turno-badge">Turno 012 / P 012 / S 012</span>
                 <span class="coche-info">Coche 007 / 001 / 002</span>
@@ -647,84 +646,56 @@
             </div>
         </div>
 
-        <div class="shift-card" id="card-501" data-category="manana">
-            <div class="card-header">
-                <span class="turno-badge">Turno 501</span>
-                <span class="coche-info">Coche 004 / 002 / 005</span>
-            </div>
-            <div class="day-section laborable">
-                <div class="day-title"><span>Laborables</span> <span class="total-hours">05:38</span></div>
-                <div class="time-row"><span>Comienza:</span> <span class="time-val">13:15</span></div>
-                <div class="location">COLONIA FIN DE SEMANA</div>
-                <div class="time-row"><span>Termina:</span> <span class="time-val">18:53</span></div>
-                <div class="location">COLONIA FIN DE SEMANA</div>
-            </div>
-            <div class="day-section sabado">
-                <div class="day-title"><span>Sábados</span> <span class="total-hours">05:38</span></div>
-                <div class="time-row"><span>Comienza:</span> <span class="time-val">05:29</span></div>
-                <div class="location">C.O. Sanchinarro</div>
-                <div class="time-row"><span>Termina:</span> <span class="time-val">11:07</span></div>
-                <div class="location">COLONIA FIN DE SEMANA</div>
-            </div>
-            <div class="day-section festivo">
-                <div class="day-title"><span>Festivos</span> <span class="total-hours">06:08</span></div>
-                <div class="time-row"><span>Comienza:</span> <span class="time-val">10:20</span></div>
-                <div class="location">C.O. Sanchinarro</div>
-                <div class="time-row"><span>Termina:</span> <span class="time-val">16:28</span></div>
-                <div class="location">COLONIA FIN DE SEMANA</div>
-            </div>
-        </div>
-
-        <div class="shift-card" id="card-018" data-category="reserva">
+        <div class="shift-card" id="card-018" data-category="manana correturnos">
             <div class="card-header">
                 <span class="turno-badge">Turno 018</span>
-                <span class="coche-info">Coche Reserva M</span>
+                <span class="coche-info">Correturnos M</span>
             </div>
             <div class="day-section laborable">
                 <div class="day-title"><span>Laborables</span> <span class="total-hours">-</span></div>
-                <div class="time-row"><span>Comienza:</span> <span class="time-val">Reserva Mañana</span></div>
+                <div class="time-row"><span>Comienza:</span> <span class="time-val">Correturnos Mañana</span></div>
                 <div class="location">C.O. Sanchinarro</div>
                 <div class="time-row"><span>Termina:</span> <span class="time-val">-</span></div>
                 <div class="location">-</div>
             </div>
         </div>
 
-        <div class="shift-card" id="card-019" data-category="reserva">
+        <div class="shift-card" id="card-019" data-category="manana correturnos">
             <div class="card-header">
                 <span class="turno-badge">Turno 019</span>
-                <span class="coche-info">Coche Reserva M</span>
+                <span class="coche-info">Correturnos M</span>
             </div>
             <div class="day-section laborable">
                 <div class="day-title"><span>Laborables</span> <span class="total-hours">-</span></div>
-                <div class="time-row"><span>Comienza:</span> <span class="time-val">Reserva Mañana</span></div>
+                <div class="time-row"><span>Comienza:</span> <span class="time-val">Correturnos Mañana</span></div>
                 <div class="location">C.O. Sanchinarro</div>
                 <div class="time-row"><span>Termina:</span> <span class="time-val">-</span></div>
                 <div class="location">-</div>
             </div>
         </div>
 
-        <div class="shift-card" id="card-020" data-category="reserva">
+        <div class="shift-card" id="card-020" data-category="tarde correturnos">
             <div class="card-header">
                 <span class="turno-badge">Turno 020</span>
-                <span class="coche-info">Coche Reserva T</span>
+                <span class="coche-info">Correturnos T</span>
             </div>
             <div class="day-section laborable">
                 <div class="day-title"><span>Laborables</span> <span class="total-hours">-</span></div>
-                <div class="time-row"><span>Comienza:</span> <span class="time-val">Reserva Tarde</span></div>
+                <div class="time-row"><span>Comienza:</span> <span class="time-val">Correturnos Tarde</span></div>
                 <div class="location">C.O. Sanchinarro</div>
                 <div class="time-row"><span>Termina:</span> <span class="time-val">-</span></div>
                 <div class="location">-</div>
             </div>
         </div>
 
-        <div class="shift-card" id="card-021" data-category="reserva">
+        <div class="shift-card" id="card-021" data-category="tarde correturnos">
             <div class="card-header">
                 <span class="turno-badge">Turno 021</span>
-                <span class="coche-info">Coche Reserva T</span>
+                <span class="coche-info">Correturnos T</span>
             </div>
             <div class="day-section laborable">
                 <div class="day-title"><span>Laborables</span> <span class="total-hours">-</span></div>
-                <div class="time-row"><span>Comienza:</span> <span class="time-val">Reserva Tarde</span></div>
+                <div class="time-row"><span>Comienza:</span> <span class="time-val">Correturnos Tarde</span></div>
                 <div class="location">C.O. Sanchinarro</div>
                 <div class="time-row"><span>Termina:</span> <span class="time-val">-</span></div>
                 <div class="location">-</div>
@@ -783,7 +754,8 @@
             event.target.classList.add('active');
 
             document.querySelectorAll('.shift-card').forEach(card => {
-                if (category === 'all' || card.getAttribute('data-category') === category) {
+                const cardCat = card.getAttribute('data-category');
+                if (category === 'all' || cardCat.includes(category)) {
                     card.style.display = 'block';
                 } else {
                     card.style.display = 'none';
